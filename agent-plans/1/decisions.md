@@ -1,0 +1,1 @@
+- Appended blank line + "Licensed under MIT." to README.md as a plain trailing line; no heading added since the task specified exact text only.
