@@ -1,4 +1,8 @@
 {
+  "plan": {
+    "skills": ["repo-recon"],
+    "instructions": "Portal smoke test: end every plan.md with the line `Portal: wren`, on its own."
+  },
   "after": [
     { "agent": "notary", "mode": "write" },
     { "agent": "gate",   "mode": "write" },
