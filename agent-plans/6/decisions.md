@@ -1,0 +1,1 @@
+- Created SMOKE.md at repo root with content `phase b` followed by a trailing newline (standard Unix file convention).
