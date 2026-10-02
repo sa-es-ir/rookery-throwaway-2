@@ -1,0 +1,1 @@
+- Used exact content from plan.md verbatim; no additions or modifications since the plan was explicit and complete.
