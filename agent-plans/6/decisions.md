@@ -1,0 +1,2 @@
+- Created SMOKE.md at repo root with content `phase b` followed by a trailing newline (standard Unix file convention).
+- Created smoke-retry.txt as post-task smoke test artifact to verify gate step completion.
