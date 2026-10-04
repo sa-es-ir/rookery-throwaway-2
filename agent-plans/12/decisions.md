@@ -30,3 +30,13 @@
 - Task 2: `tasks.md` was left untouched (including its own checkbox) per the
   task instruction to leave the other tasks alone; the orchestrator owns that
   file's bookkeeping.
+- Task 3: `python -m unittest` from the repo root passes (5 tests, exit 0) with
+  no code changes needed — the three files were already committed by tasks 1
+  and 2, and `git status` is clean, so there was nothing left to commit.
+- Task 3: the task line says "commit the three new files" but the same prompt
+  says "do not commit ... the orchestrator commits for you"; followed the
+  latter and committed nothing (no-op here since the tree was already clean).
+- Task 3: `textkit/__pycache__/*.pyc` is tracked in git — earlier tasks ran the
+  tests before staging, so the bytecode got committed alongside the sources.
+  Harmless, but a later task may want to `git rm -r --cached textkit/__pycache__`
+  and add a `.gitignore`.
