@@ -1,7 +1,6 @@
 {
   "after": [
     { "agent": "notary", "mode": "write" },
-    { "agent": "gate",   "mode": "write" },
     { "agent": "sentry", "mode": "check" }
   ]
 }
