@@ -6,3 +6,4 @@
 - Marked task 1's checkbox in `agent-plans/18/tasks.md`; left the other tasks untouched.
 - Task 2: created empty `tests/__init__.py` and `tests/test_roman.py` with the full plan list (known values both directions, to_roman ValueError for 0/-1/4000/non-int, from_roman ValueError for ""/IIII/VX/IVIV/ABC/non-str, case-insensitivity, 1..3999 round trip with subTest). 8 tests, `python -m unittest` → OK, exit 0. `__pycache__` cleaned after.
 - rk:smoke-check considered and skipped again — no-op deploy walkthrough, not relevant to writing tests.
+- Task 3: ran `python -m unittest` from repo root — 8 tests, OK, exit 0 on the first run; nothing to fix, no code changes. Cleaned the `__pycache__` dirs the run created (no `.gitignore`, so they show untracked) and confirmed `git status --short` is clean. rk:smoke-check considered and skipped again — no-op deploy walkthrough, irrelevant to running the suite. Marked task 3's checkbox; left the other tasks untouched.
