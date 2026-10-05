@@ -1,0 +1,1 @@
+- Task 1: created empty `textkit/__init__.py` and `textkit/slug.py` with the plan's exact `slugify()`; sanity check printed `cafe-corner-menu`. No deviations. `__pycache__` cleaned; `git status --short` shows only `agent-plans/16/` and `textkit/`. `rk:smoke-check` considered and skipped (no-op deploy walkthrough, not applicable).
